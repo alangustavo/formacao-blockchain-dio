@@ -1,5 +1,8 @@
 pragma solidity ^0.8.0;
 
+// https://sepolia.etherscan.io/tx/0x8cd9fbb34928e569f2418fc65a00226675d9bb0da58009c578f6d054ecde305e
+// Endereço do Contrato do Token: 0x968Aa8580DA08ADf68F359A123270712870468a4
+
 interface IERC20 {
     //getters
     function totalSupply() external view returns (uint256);
